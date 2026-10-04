@@ -1,0 +1,3 @@
+sci-pipeline/evals/local/
+__pycache__/
+*.pyc

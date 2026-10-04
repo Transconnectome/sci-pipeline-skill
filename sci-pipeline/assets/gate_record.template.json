@@ -1,0 +1,16 @@
+{
+  "_how_to_use": "새 파일로 만들지 말고 레포의 기존 장부(run ledger, remediation register, HANDOFF 표)에 이 필드로 한 줄 추가한다.",
+  "gate": "G1|G2|G3|G4|G5|G6|G7|G8|G9",
+  "subject": "무엇을 판정했는가 (카드 ID, 커밋 SHA, 경로)",
+  "author": "작성자 (사람 또는 에이전트 이름)",
+  "reviewer": "작성자와 달라야 함",
+  "review_kind": "self | independent_ai | human_expert",
+  "as_of": "YYYY-MM-DD",
+  "evidence": [
+    "파일:줄 또는 실행 명령과 출력 경로"
+  ],
+  "verdict": "PASS | FAIL | UNSET | 미확인 | N/A",
+  "wrong_if": "이 판정이 틀렸다면 드러낼 구체 입력·명령",
+  "decided_by": "게이트 통과를 결정한 사람 (리뷰어 판정은 권고)",
+  "status_layer": "document | synthetic | implementation | real_data | external_replication | clinical"
+}

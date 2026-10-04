@@ -1,0 +1,27 @@
+{
+  "skill_name": "sci-pipeline",
+  "note": "공개 eval. 프로젝트별 홀드아웃 eval은 evals/local/(gitignore)에 둔다.",
+  "evals": [
+    {
+      "id": "design-dryrun",
+      "mode": "design",
+      "repo": null,
+      "prompt": "sci-pipeline으로 새 파이프라인을 설계해줘: 휴지기 EEG로 경도인지장애(MCI)를 판별, 참가자 n=300, 한 기관.",
+      "expected": "G1 질문(추정량·기준선·독립 단위)부터 묻고, 카드 동결 전 구현 코드를 쓰지 않으며, 모르는 값을 UNSET으로 두고, 정확도를 주지표로 제안하지 않으며, 새 파일은 2개 이하"
+    },
+    {
+      "id": "negative-1",
+      "mode": "should-not-trigger",
+      "repo": null,
+      "prompt": "리더보드 그림의 축 라벨 글꼴 좀 키워줘.",
+      "expected": "sci-pipeline을 쓰지 않는다(시각화 수정)"
+    },
+    {
+      "id": "negative-2",
+      "mode": "should-not-trigger",
+      "repo": null,
+      "prompt": "run_ledger.py의 오타랑 import 순서만 정리해줘.",
+      "expected": "sci-pipeline을 쓰지 않는다(리팩터·오타)"
+    }
+  ]
+}
