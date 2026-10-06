@@ -15,4 +15,4 @@ Claude Code · Codex CLI · Antigravity 어디에나 아래 `---` 사이를 붙�
 8. **보고**: 4개 파일 경로, 새로 만든 것 / 고친 것, 남은 UNSET 목록, 지금 걸린 멈춤 조건. 커밋은 요청이 있을 때만 한다.
 ---
 
-실례: `~/git/dolittle` (2026-10-06) — `docs/WORKPLAN.md` §4가 다음 계획의 정본, `CLAUDE.md`는 `@AGENTS.md` + 단계별 스킬 표.
+실례: 비공개 연구 레포 1곳(2026-10-06) — `docs/WORKPLAN.md` §4를 다음 계획의 정본으로, `CLAUDE.md`를 `@AGENTS.md` + 단계별 스킬 표로 운영.
