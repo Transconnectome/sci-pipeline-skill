@@ -21,10 +21,12 @@ Claude Code, Codex CLI, Antigravity에서 같은 스킬 폴더를 공유한다.
 
 모드는 `design`(카드 동결 전 구현 금지), `implement`(고정구 먼저, TDD), `audit`(새 파일 0개) 세 가지다.
 
+레포 안에서 설계를 시작하면 **진입 문서 4종**(`AGENTS.md` 도구 중립 규칙 · `CLAUDE.md` = `@AGENTS.md` + Claude 전용 · `WORKPLAN.md` 측정 상태와 게이트 진행표 · `README.md` 사람용 입구)을 없을 때만 만들고 있으면 고친다. 정본은 한 곳에만 두고, 모르는 값은 `UNSET`으로 남긴다. 생성 프롬프트는 [`sci-pipeline/references/repo_docs_prompt.md`](sci-pipeline/references/repo_docs_prompt.md).
+
 ## 구성
 
 ```
-sci-pipeline/          스킬 본체 (SKILL.md, references/, assets/, scripts/, evals/)
+sci-pipeline/          스킬 본체 (SKILL.md, references/, assets/ — 카드·자료 계약·진입 문서 4종 템플릿, scripts/, evals/)
 agents/                Claude Code용 pipeline-reviewer 서브에이전트 템플릿
 install.sh             세 도구에 symlink + 리뷰어 에이전트 렌더
 ```
